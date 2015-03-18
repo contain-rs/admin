@@ -9,4 +9,4 @@ reviewers = ["USER2"]
 
 [repo.NAME2]
 # override the default repo name
-name = OTHER_NAME
+name = "OTHER_NAME"
