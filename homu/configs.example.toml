@@ -1,0 +1,7 @@
+[repo.NAME]
+reviewers = ["USER"]
+
+[repo.NAME2]
+# override the default
+name = OTHER_NAME
+reviewers = ["USER"]
