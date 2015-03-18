@@ -1,7 +1,12 @@
-[repo.NAME]
+# people added to the reviewers list for every repo
 reviewers = ["USER"]
 
+[repo.NAME]
+# by default the repo is `contain-rs/NAME`
+
+# add an extra person for just this repo
+reviewers = ["USER2"]
+
 [repo.NAME2]
-# override the default
+# override the default repo name
 name = OTHER_NAME
-reviewers = ["USER"]

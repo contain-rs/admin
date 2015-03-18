@@ -29,6 +29,9 @@ def main():
             d['owner'] = 'contain-rs'
         if 'name' not in d:
             d['name'] = name
+        if 'reviewers' not in d:
+            d['reviewers'] = []
+        d['reviewers'] += configs['reviewers']
         # set the per-repo secrets.
         for (service, settings) in secrets['per-repo'].items():
             enforce_key_not_in_configs(d, service,
