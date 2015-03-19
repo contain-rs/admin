@@ -1,4 +1,10 @@
-reviewers = ["Gankro", "huon", "apasel422", "cgaebel", "reem"]
+reviewers = [
+  "Gankro", 
+  "huon", 
+  "apasel422", 
+  "cgaebel", 
+  "reem",
+]
 
 [repo.lru-cache]
 [repo.compare]
