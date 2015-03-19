@@ -1,12 +1,11 @@
 reviewers = [
-  "Gankro", 
-  "huonw", 
-  "apasel422", 
-  "cgaebel", 
+  "Gankro",
+  "huonw",
+  "apasel422",
+  "cgaebel",
   "reem",
 ]
 
-[repo.lru-cache]
 [repo.compare]
 [repo.trie]
 [repo.ordered_iter]
