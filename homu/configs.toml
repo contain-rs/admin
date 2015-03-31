@@ -20,3 +20,5 @@ reviewers = [
 [repo.string-joiner]
 [repo.linear-map]
 [repo.par-vec]
+[repo.bst]
+[repo.cons-list]
