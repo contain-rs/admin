@@ -4,6 +4,7 @@ reviewers = [
   "apasel422",
   "cgaebel",
   "reem",
+  "bluss",
 ]
 
 [repo.compare]
@@ -22,3 +23,5 @@ reviewers = [
 [repo.par-vec]
 [repo.bst]
 [repo.cons-list]
+[repo.bit-vec]
+[repo.bit-set]
